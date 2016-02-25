@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FCDD70B1C7E8F5500F083D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCDD70A1C7E8F5500F083D2 /* AppDelegate.swift */; };
+		6FCDD70D1C7E8F5500F083D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCDD70C1C7E8F5500F083D2 /* ViewController.swift */; };
+		6FCDD7101C7E8F5500F083D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FCDD70E1C7E8F5500F083D2 /* Main.storyboard */; };
+		6FCDD7121C7E8F5500F083D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FCDD7111C7E8F5500F083D2 /* Assets.xcassets */; };
+		6FCDD7151C7E8F5500F083D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FCDD7131C7E8F5500F083D2 /* LaunchScreen.storyboard */; };
+		6FCDD7381C7E93C600F083D2 /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FCDD7371C7E93C600F083D2 /* GTMOAuth2ViewTouch.xib */; };
+		6FCDD73B1C7E942400F083D2 /* GTLCalendar_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCDD73A1C7E942400F083D2 /* GTLCalendar_Sources.m */; };
+		6FCDD7431C7E96DB00F083D2 /* GTL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCDD7251C7E8FD700F083D2 /* GTL.framework */; };
+		6FCDD7451C7EE79C00F083D2 /* GTLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCDD7441C7EE79C00F083D2 /* GTLHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FCDD7241C7E8FD700F083D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FCDD71C1C7E8FD700F083D2 /* GTLCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F38F6A60B66E91D00B24B81;
+			remoteInfo = GTLOSXCore;
+		};
+		6FCDD7261C7E8FD700F083D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FCDD71C1C7E8FD700F083D2 /* GTLCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F4469DB41C40229D00BCFAA1;
+			remoteInfo = GTLiOSCore;
+		};
+		6FCDD7281C7E8FD700F083D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FCDD71C1C7E8FD700F083D2 /* GTLCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F4368F721B8233BF00E17643;
+			remoteInfo = GTLiOSUnitTests;
+		};
+		6FCDD72A1C7E8FD700F083D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FCDD71C1C7E8FD700F083D2 /* GTLCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F12027D11A4CA2F00BEB470;
+			remoteInfo = GTLOSXUnitTests;
+		};
+		6FCDD72C1C7E8FD700F083D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FCDD71C1C7E8FD700F083D2 /* GTLCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F1AD9020B71603F00DC0485;
+			remoteInfo = OSXDevTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FCDD7071C7E8F5500F083D2 /* GoogleCalendarApiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleCalendarApiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FCDD70A1C7E8F5500F083D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FCDD70C1C7E8F5500F083D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6FCDD70F1C7E8F5500F083D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FCDD7111C7E8F5500F083D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FCDD7141C7E8F5500F083D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FCDD7161C7E8F5500F083D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FCDD71C1C7E8FD700F083D2 /* GTLCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GTLCore.xcodeproj; path = "../google-api-objectivec-client/Source/GTLCore.xcodeproj"; sourceTree = "<group>"; };
+		6FCDD7371C7E93C600F083D2 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = "../../google-api-objectivec-client/Deps/gtm-oauth2/Source/Touch/GTMOAuth2ViewTouch.xib"; sourceTree = "<group>"; };
+		6FCDD7391C7E942400F083D2 /* GoogleCalendarApiDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoogleCalendarApiDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		6FCDD73A1C7E942400F083D2 /* GTLCalendar_Sources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLCalendar_Sources.m; path = "../../google-api-objectivec-client/Source/Services/Calendar/Generated/GTLCalendar_Sources.m"; sourceTree = "<group>"; };
+		6FCDD73C1C7E945900F083D2 /* GTLCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLCalendar.h; path = "../../google-api-objectivec-client/Source/Services/Calendar/Generated/GTLCalendar.h"; sourceTree = "<group>"; };
+		6FCDD7441C7EE79C00F083D2 /* GTLHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTLHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FCDD7041C7E8F5500F083D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FCDD7431C7E96DB00F083D2 /* GTL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FCDD6FE1C7E8F5500F083D2 = {
+			isa = PBXGroup;
+			children = (
+				6FCDD71C1C7E8FD700F083D2 /* GTLCore.xcodeproj */,
+				6FCDD7091C7E8F5500F083D2 /* GoogleCalendarApiDemo */,
+				6FCDD7081C7E8F5500F083D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FCDD7081C7E8F5500F083D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FCDD7071C7E8F5500F083D2 /* GoogleCalendarApiDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FCDD7091C7E8F5500F083D2 /* GoogleCalendarApiDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6FCDD73C1C7E945900F083D2 /* GTLCalendar.h */,
+				6FCDD73A1C7E942400F083D2 /* GTLCalendar_Sources.m */,
+				6FCDD7361C7E931300F083D2 /* Supporting Files */,
+				6FCDD70A1C7E8F5500F083D2 /* AppDelegate.swift */,
+				6FCDD70C1C7E8F5500F083D2 /* ViewController.swift */,
+				6FCDD7441C7EE79C00F083D2 /* GTLHelper.swift */,
+				6FCDD70E1C7E8F5500F083D2 /* Main.storyboard */,
+				6FCDD7111C7E8F5500F083D2 /* Assets.xcassets */,
+				6FCDD7131C7E8F5500F083D2 /* LaunchScreen.storyboard */,
+				6FCDD7161C7E8F5500F083D2 /* Info.plist */,
+				6FCDD7391C7E942400F083D2 /* GoogleCalendarApiDemo-Bridging-Header.h */,
+			);
+			path = GoogleCalendarApiDemo;
+			sourceTree = "<group>";
+		};
+		6FCDD71D1C7E8FD700F083D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FCDD7251C7E8FD700F083D2 /* GTL.framework */,
+				6FCDD7271C7E8FD700F083D2 /* GTL.framework */,
+				6FCDD7291C7E8FD700F083D2 /* GTLiOSUnitTests.xctest */,
+				6FCDD72B1C7E8FD700F083D2 /* GTLUnitTests.xctest */,
+				6FCDD72D1C7E8FD700F083D2 /* OSXDevTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FCDD7361C7E931300F083D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FCDD7371C7E93C600F083D2 /* GTMOAuth2ViewTouch.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FCDD7061C7E8F5500F083D2 /* GoogleCalendarApiDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FCDD7191C7E8F5500F083D2 /* Build configuration list for PBXNativeTarget "GoogleCalendarApiDemo" */;
+			buildPhases = (
+				6FCDD7031C7E8F5500F083D2 /* Sources */,
+				6FCDD7041C7E8F5500F083D2 /* Frameworks */,
+				6FCDD7051C7E8F5500F083D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleCalendarApiDemo;
+			productName = GoogleCalendarApiDemo;
+			productReference = 6FCDD7071C7E8F5500F083D2 /* GoogleCalendarApiDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FCDD6FF1C7E8F5500F083D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ferris Li";
+				TargetAttributes = {
+					6FCDD7061C7E8F5500F083D2 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 6FCDD7021C7E8F5500F083D2 /* Build configuration list for PBXProject "GoogleCalendarApiDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FCDD6FE1C7E8F5500F083D2;
+			productRefGroup = 6FCDD7081C7E8F5500F083D2 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6FCDD71D1C7E8FD700F083D2 /* Products */;
+					ProjectRef = 6FCDD71C1C7E8FD700F083D2 /* GTLCore.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				6FCDD7061C7E8F5500F083D2 /* GoogleCalendarApiDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6FCDD7251C7E8FD700F083D2 /* GTL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GTL.framework;
+			remoteRef = 6FCDD7241C7E8FD700F083D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6FCDD7271C7E8FD700F083D2 /* GTL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GTL.framework;
+			remoteRef = 6FCDD7261C7E8FD700F083D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6FCDD7291C7E8FD700F083D2 /* GTLiOSUnitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GTLiOSUnitTests.xctest;
+			remoteRef = 6FCDD7281C7E8FD700F083D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6FCDD72B1C7E8FD700F083D2 /* GTLUnitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GTLUnitTests.xctest;
+			remoteRef = 6FCDD72A1C7E8FD700F083D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6FCDD72D1C7E8FD700F083D2 /* OSXDevTool */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = OSXDevTool;
+			remoteRef = 6FCDD72C1C7E8FD700F083D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FCDD7051C7E8F5500F083D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FCDD7381C7E93C600F083D2 /* GTMOAuth2ViewTouch.xib in Resources */,
+				6FCDD7151C7E8F5500F083D2 /* LaunchScreen.storyboard in Resources */,
+				6FCDD7121C7E8F5500F083D2 /* Assets.xcassets in Resources */,
+				6FCDD7101C7E8F5500F083D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FCDD7031C7E8F5500F083D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FCDD70D1C7E8F5500F083D2 /* ViewController.swift in Sources */,
+				6FCDD7451C7EE79C00F083D2 /* GTLHelper.swift in Sources */,
+				6FCDD73B1C7E942400F083D2 /* GTLCalendar_Sources.m in Sources */,
+				6FCDD70B1C7E8F5500F083D2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6FCDD70E1C7E8F5500F083D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FCDD70F1C7E8F5500F083D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FCDD7131C7E8F5500F083D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FCDD7141C7E8F5500F083D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FCDD7171C7E8F5500F083D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FCDD7181C7E8F5500F083D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FCDD71A1C7E8F5500F083D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "GTL_BUILT_AS_FRAMEWORK=1";
+				INFOPLIST_FILE = GoogleCalendarApiDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.ferris.li.GoogleCalendarApiDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GoogleCalendarApiDemo/GoogleCalendarApiDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FCDD71B1C7E8F5500F083D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "GTL_BUILT_AS_FRAMEWORK=1";
+				INFOPLIST_FILE = GoogleCalendarApiDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.ferris.li.GoogleCalendarApiDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GoogleCalendarApiDemo/GoogleCalendarApiDemo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FCDD7021C7E8F5500F083D2 /* Build configuration list for PBXProject "GoogleCalendarApiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FCDD7171C7E8F5500F083D2 /* Debug */,
+				6FCDD7181C7E8F5500F083D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FCDD7191C7E8F5500F083D2 /* Build configuration list for PBXNativeTarget "GoogleCalendarApiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FCDD71A1C7E8F5500F083D2 /* Debug */,
+				6FCDD71B1C7E8F5500F083D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FCDD6FF1C7E8F5500F083D2 /* Project object */;
+}
