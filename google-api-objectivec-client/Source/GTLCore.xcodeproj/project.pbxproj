@@ -932,6 +932,9 @@
 					F4368F711B8233BF00E17643 = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
+					F4469D791C40229D00BCFAA1 = {
+						DevelopmentTeam = XY597Q25W5;
+					};
 				};
 			};
 			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "GTLCore" */;
@@ -1474,13 +1477,15 @@
 		F4469DB21C40229D00BCFAA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/GTLiOSFramework-Info.plist";
 				INSTALL_PATH = "@loader_path/../Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GTL;
 				PRODUCT_NAME = GTL;
 				SDKROOT = iphoneos;
@@ -1492,13 +1497,15 @@
 		F4469DB31C40229D00BCFAA1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/GTLiOSFramework-Info.plist";
 				INSTALL_PATH = "@loader_path/../Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GTL;
 				PRODUCT_NAME = GTL;
 				SDKROOT = iphoneos;

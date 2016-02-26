@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6FC7ECF31C80096C00F6E25E /* GTL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCDD7271C7E8FD700F083D2 /* GTL.framework */; };
+		6FC7ECF91C800FBA00F6E25E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC7ECF81C800FBA00F6E25E /* Security.framework */; };
+		6FC7ECFB1C800FC500F6E25E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC7ECFA1C800FC500F6E25E /* SystemConfiguration.framework */; };
 		6FCDD70B1C7E8F5500F083D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCDD70A1C7E8F5500F083D2 /* AppDelegate.swift */; };
 		6FCDD70D1C7E8F5500F083D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCDD70C1C7E8F5500F083D2 /* ViewController.swift */; };
 		6FCDD7101C7E8F5500F083D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FCDD70E1C7E8F5500F083D2 /* Main.storyboard */; };
@@ -14,7 +17,6 @@
 		6FCDD7151C7E8F5500F083D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FCDD7131C7E8F5500F083D2 /* LaunchScreen.storyboard */; };
 		6FCDD7381C7E93C600F083D2 /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FCDD7371C7E93C600F083D2 /* GTMOAuth2ViewTouch.xib */; };
 		6FCDD73B1C7E942400F083D2 /* GTLCalendar_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCDD73A1C7E942400F083D2 /* GTLCalendar_Sources.m */; };
-		6FCDD7431C7E96DB00F083D2 /* GTL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCDD7251C7E8FD700F083D2 /* GTL.framework */; };
 		6FCDD7451C7EE79C00F083D2 /* GTLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCDD7441C7EE79C00F083D2 /* GTLHelper.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +59,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6FC7ECF81C800FBA00F6E25E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6FC7ECFA1C800FC500F6E25E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		6FCDD7071C7E8F5500F083D2 /* GoogleCalendarApiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleCalendarApiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FCDD70A1C7E8F5500F083D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FCDD70C1C7E8F5500F083D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,7 +81,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FCDD7431C7E96DB00F083D2 /* GTL.framework in Frameworks */,
+				6FC7ECFB1C800FC500F6E25E /* SystemConfiguration.framework in Frameworks */,
+				6FC7ECF91C800FBA00F6E25E /* Security.framework in Frameworks */,
+				6FC7ECF31C80096C00F6E25E /* GTL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +93,8 @@
 		6FCDD6FE1C7E8F5500F083D2 = {
 			isa = PBXGroup;
 			children = (
+				6FC7ECFA1C800FC500F6E25E /* SystemConfiguration.framework */,
+				6FC7ECF81C800FBA00F6E25E /* Security.framework */,
 				6FCDD71C1C7E8FD700F083D2 /* GTLCore.xcodeproj */,
 				6FCDD7091C7E8F5500F083D2 /* GoogleCalendarApiDemo */,
 				6FCDD7081C7E8F5500F083D2 /* Products */,
